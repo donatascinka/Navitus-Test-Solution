@@ -121,8 +121,8 @@ namespace Navitus
                 // if something wrong
                 else
                 {
-                    log.Info("HTTP: Get '/' exception, please check log file for more details.");
-                    return new ResponseMessage(false, "Exception, please check log file for more details.");
+                    log.Info("HTTP: Get '/' exception or missing data, please check log file for more details.");
+                    return new ResponseMessage(false, "Exception or missing data, please check log file for more details.");
                 }
 
 
